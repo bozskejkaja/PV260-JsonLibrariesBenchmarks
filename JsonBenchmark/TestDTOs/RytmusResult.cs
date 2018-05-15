@@ -1,6 +1,6 @@
 ﻿namespace JsonBenchmark.TestDTOs
 {
-    public class Result
+    public class RytmusResult
     {
         public string[] category { get; set; }
         public string icon_url { get; set; }

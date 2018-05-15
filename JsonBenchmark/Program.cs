@@ -4,10 +4,10 @@ namespace JsonBenchmark
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
+            //BenchmarkRunner.Run<JsonSerializersBenchmarks>();
             BenchmarkRunner.Run<JsonDeserializersBenchmarks>();
-            BenchmarkRunner.Run<JsonSerializersBenchmarks>();
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿namespace JsonBenchmark.TestDTOs
 {
-    public class Root
+    public class ChuckRoot
     {
         public int total { get; set; }
-        public Result[] result { get; set; }
+        public ChuckResult[] result { get; set; }
     }
 }
